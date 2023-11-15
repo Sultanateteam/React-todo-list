@@ -1,0 +1,53 @@
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 0px;
+  gap: 25px;
+}
+
+.user {
+  width: 200px;
+  box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  transition: transform 1s ease;
+}
+
+.user:hover{
+    transform: rotate(10deg);
+}
+
+.user img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  /* background-color: aqua; */
+  object-fit: cover;
+}
+
+.user h1 {
+  font-size: 15px;
+}
+
+.user p {
+  font-size: 14px;
+  color: gray;
+}
+
+.user button {
+  border: none;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+.user button:active {
+  scale: 1.3;
+}

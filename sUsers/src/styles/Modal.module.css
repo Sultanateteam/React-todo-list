@@ -1,0 +1,80 @@
+
+.btn{
+    rotate: 90deg;
+    left: -65px;
+    background-color: orange;
+    color: white;
+    width: max-content;
+    font-size: 22px;
+    border: none;
+    border-radius: 8px;
+    top: 50%;
+    padding: 5px 22px;
+    position: absolute;
+    cursor: pointer;
+    transition: scale .1s ease;
+    z-index: 99;
+}
+
+.btn:active{
+    scale: 1.2;
+}
+
+.modal{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(1px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+}
+
+.modalContent{
+    position: relative;
+    background-color: white;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px ;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input{
+    width: 250px;
+    font-size: 20px;
+    padding: 4px 10px 4px 5px;
+}
+
+.modalContent div{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.modalContent div label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 70px;
+    gap: 5px;
+}
+
+.error{
+    color: red;
+}

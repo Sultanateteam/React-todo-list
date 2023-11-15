@@ -1,0 +1,16 @@
+header{
+    padding: 10px 0px;
+    border: 2px solid #ccc;
+    color: royalblue;
+    
+    .container{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.map{
+    background-color: green;
+}

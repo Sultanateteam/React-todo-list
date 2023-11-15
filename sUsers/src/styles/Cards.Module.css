@@ -1,0 +1,12 @@
+.cards{
+    background-color: green;
+}
+
+.nope{
+    font-size: 120px;
+    color: rgba(152, 151, 151, 0.109);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
